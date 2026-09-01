@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 4,
+  "version": "v6",
+  "chords": {
+    "C": {"jp": "ド・ミ・ソ", "notes": ["C4", "E4", "G4"]},
+    "G": {"jp": "ソ・シ・レ", "notes": ["G3", "B3", "D4"]},
+    "Am": {"jp": "ラ・ド・ミ", "notes": ["A3", "C4", "E4"]},
+    "F": {"jp": "ファ・ラ・ド", "notes": ["F3", "A3", "C4"]},
+    "D": {"jp": "レ・ファ♯・ラ", "notes": ["D4", "F#4", "A4"]},
+    "Em": {"jp": "ミ・ソ・シ", "notes": ["E3", "G3", "B3"]},
+    "A": {"jp": "ラ・ド♯・ミ", "notes": ["A3", "C#4", "E4"]},
+    "Bm": {"jp": "シ・レ・ファ♯", "notes": ["B3", "D4", "F#4"]},
+    "E": {"jp": "ミ・ソ♯・シ", "notes": ["E3", "G#3", "B3"]},
+    "F#m": {"jp": "ファ♯・ラ・ド♯", "notes": ["F#3", "A3", "C#4"]}
+  },
+  "combinations": [
+    {"id": "i-v-vi-iv-c", "rating": 5, "family": "I–V–vi–IV", "key": "C", "chords": ["C", "G", "Am", "F"]},
+    {"id": "i-v-vi-iv-g", "rating": 5, "family": "I–V–vi–IV", "key": "G", "chords": ["G", "D", "Em", "C"]},
+    {"id": "i-v-vi-iv-d", "rating": 5, "family": "I–V–vi–IV", "key": "D", "chords": ["D", "A", "Bm", "G"]},
+    {"id": "i-v-vi-iv-a", "rating": 4, "family": "I–V–vi–IV", "key": "A", "chords": ["A", "E", "F#m", "D"]},
+    {"id": "vi-iv-i-v-c", "rating": 4, "family": "vi–IV–I–V", "key": "C", "chords": ["Am", "F", "C", "G"]},
+    {"id": "vi-iv-i-v-g", "rating": 4, "family": "vi–IV–I–V", "key": "G", "chords": ["Em", "C", "G", "D"]},
+    {"id": "vi-iv-i-v-d", "rating": 4, "family": "vi–IV–I–V", "key": "D", "chords": ["Bm", "G", "D", "A"]},
+    {"id": "iv-v-iii-vi-c", "rating": 4, "family": "IV–V–iii–vi", "key": "C", "chords": ["F", "G", "Em", "Am"]},
+    {"id": "iv-v-iii-vi-g", "rating": 4, "family": "IV–V–iii–vi", "key": "G", "chords": ["C", "D", "Bm", "Em"]}
+  ],
+  "publicDomainSongs": [
+    {"id":"twinkle","title":"きらきら星","titleEn":"Twinkle, Twinkle, Little Star","credit":"Traditional / 18世紀の旋律","baseKey":"C","bpm":96,"melody":[["C5",1],["C5",1],["G5",1],["G5",1],["A5",1],["A5",1],["G5",2],["F5",1],["F5",1],["E5",1],["E5",1],["D5",1],["D5",1],["C5",2],["G5",1],["G5",1],["F5",1],["F5",1],["E5",1],["E5",1],["D5",2],["G5",1],["G5",1],["F5",1],["F5",1],["E5",1],["E5",1],["D5",2],["C5",1],["C5",1],["G5",1],["G5",1],["A5",1],["A5",1],["G5",2],["F5",1],["F5",1],["E5",1],["E5",1],["D5",1],["D5",1],["C5",2]],"chordTimeline":[["C",4],["F",2],["C",2],["F",2],["C",2],["G",2],["C",4],["F",2],["C",2],["G",4],["F",2],["C",2],["G",2],["C",4],["F",2],["C",2],["F",2],["C",2],["G",2],["C",2]],"harmonyLabel":"メロディに合わせた基本伴奏"},
+    {"id":"ode-to-joy","title":"歓喜の歌","titleEn":"Ode to Joy","credit":"L. van Beethoven (1824)","baseKey":"C","bpm":108,"melody":[["E5",1],["E5",1],["F5",1],["G5",1],["G5",1],["F5",1],["E5",1],["D5",1],["C5",1],["C5",1],["D5",1],["E5",1],["E5",1.5],["D5",0.5],["D5",2],["E5",1],["E5",1],["F5",1],["G5",1],["G5",1],["F5",1],["E5",1],["D5",1],["C5",1],["C5",1],["D5",1],["E5",1],["D5",1.5],["C5",0.5],["C5",2]],"chordTimeline":[["C",14],["G",2],["C",12],["G",2],["C",2]],"harmonyLabel":"メロディに合わせた基本伴奏"},
+    {"id":"auld-lang-syne","title":"蛍の光","titleEn":"Auld Lang Syne","credit":"Traditional Scottish melody","baseKey":"C","bpm":82,"melody":[["G4",1],["C5",1.5],["C5",0.5],["C5",1],["E5",1],["D5",1.5],["C5",0.5],["D5",1],["E5",1],["C5",1],["C5",1],["E5",1],["G5",1],["A5",2],["A5",1],["G5",1],["E5",1.5],["E5",0.5],["C5",1],["D5",1],["C5",1.5],["D5",0.5],["E5",1],["D5",1],["C5",1],["A4",1],["G4",2]],"chordTimeline":[["C",6],["G",2],["C",6],["F",2],["C",13]],"harmonyLabel":"メロディに合わせた基本伴奏"},
+    {"id":"amazing-grace","title":"Amazing Grace","titleEn":"Amazing Grace","credit":"Traditional hymn / New Britain tune","baseKey":"C","bpm":78,"melody":[["G4",1],["C5",2],["E5",1],["C5",2],["E5",1],["D5",1],["C5",2],["A4",1],["G4",1],["G4",2],["C5",2],["E5",2],["G5",1],["E5",1],["G5",2],["E5",1],["C5",1],["E5",2],["D5",2],["G4",1],["C5",2],["E5",1],["C5",2],["E5",1],["D5",1],["G5",2],["E5",1],["G5",1],["A5",2],["G5",2],["E5",2],["C5",2]],"chordTimeline":[["C",26],["G",2],["C",12],["F",2],["C",6]],"harmonyLabel":"メロディに合わせた基本伴奏"},
+    {"id":"mary-lamb","title":"メリーさんのひつじ","titleEn":"Mary Had a Little Lamb","credit":"Sarah J. Hale / Lowell Mason era melody (19世紀)","baseKey":"C","bpm":100,"melody":[["E5",1],["D5",1],["C5",1],["D5",1],["E5",1],["E5",1],["E5",2],["D5",1],["D5",1],["D5",2],["E5",1],["G5",1],["G5",2],["E5",1],["D5",1],["C5",1],["D5",1],["E5",1],["E5",1],["E5",1],["E5",1],["D5",1],["D5",1],["E5",1],["D5",1],["C5",4]],"chordTimeline":[["C",8],["G",4],["C",12],["G",4],["C",4]],"harmonyLabel":"メロディに合わせた基本伴奏"},
+    {"id":"london-bridge","title":"ロンドン橋","titleEn":"London Bridge Is Falling Down","credit":"Traditional English nursery rhyme","baseKey":"C","bpm":104,"melody":[["G5",1],["A5",1],["G5",1],["F5",1],["E5",1],["F5",1],["G5",2],["D5",1],["E5",1],["F5",2],["E5",1],["F5",1],["G5",2],["G5",1],["A5",1],["G5",1],["F5",1],["E5",1],["F5",1],["G5",2],["D5",2],["G5",2],["E5",1],["C5",2]],"chordTimeline":[["C",10],["F",4],["C",10],["G",4],["C",3]],"harmonyLabel":"メロディに合わせた基本伴奏"}
+  ],
+  "referenceSongs": {
+    "I–V–vi–IV": [
+      {"title":"Where Is The Love?","artist":"The Black Eyed Peas","year":2003,"genre":"Hip-Hop / Pop","youtubeId":"WpYeekQkAdc","match":"同型・セクション差あり"},
+      {"title":"Hey, Soul Sister","artist":"Train","year":2009,"genre":"Pop Rock","youtubeId":"kVpv8-5XWOI","match":"同型"},
+      {"title":"Someone Like You","artist":"Adele","year":2011,"genre":"Pop / Soul","youtubeId":"hLQl3WQQoQ0","match":"同型を含む"},
+      {"title":"Demons","artist":"Imagine Dragons","year":2013,"genre":"Pop Rock","youtubeId":"mWRsgZuwf_8","match":"同型"}
+    ],
+    "vi–IV–I–V": [
+      {"title":"Apologize","artist":"Timbaland feat. OneRepublic","year":2007,"genre":"Pop / R&B","youtubeId":"ZSM3w1v-A_Y","match":"同型"},
+      {"title":"Wake Me Up","artist":"Avicii","year":2013,"genre":"EDM / Folktronica","youtubeId":"IcrbM1l_BoI","match":"同型"},
+      {"title":"All of Me","artist":"John Legend","year":2013,"genre":"Pop / R&B","youtubeId":"450p7goxZqg","match":"同型を含む"},
+      {"title":"Faded","artist":"Alan Walker","year":2015,"genre":"EDM","youtubeId":"60ItHLz5WEA","match":"同型"}
+    ],
+    "IV–V–iii–vi": [
+      {"title":"God knows...","artist":"涼宮ハルヒ（CV.平野綾）","year":2006,"genre":"アニソン / J-Rock","youtubeId":"Rtt2gvEtodY","match":"同型（7th等の拡張あり）"},
+      {"title":"HANABI","artist":"Mr.Children","year":2008,"genre":"J-Pop / J-Rock","youtubeId":"EXxaBXKjl6Q","match":"同型を含む"},
+      {"title":"六兆年と一夜物語","artist":"kemu feat. IA","year":2012,"genre":"ボカロ / J-Rock","youtubeId":"Om3MTou2kPg","match":"同型を含む"},
+      {"title":"夜に駆ける","artist":"YOASOBI","year":2019,"genre":"J-Pop","youtubeId":"x8VYWazR5mE","match":"同型（7th拡張）"},
+      {"title":"Pretender","artist":"Official髭男dism","year":2019,"genre":"J-Pop","youtubeId":"TQ8WlA2GXbk","match":"同型を含む"},
+      {"title":"Fortnight (feat. Post Malone)","artist":"Taylor Swift","year":2024,"genre":"Pop","youtubeId":"q3zqJs7JUCQ","match":"同型を含む"}
+    ]
+  }
+}

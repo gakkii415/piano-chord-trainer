@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0d0f12">
+<title>Piano Chord Trainer</title>
+<link rel="stylesheet" href="./styles.css?v=6">
+</head>
+<body>
+<main class="app">
+<header class="top"><div><div class="eyebrow">PIANO CHORD TRAINER</div><h1>進行 × Keyで<br>コードを覚える。</h1><div class="sub">9パターンから選択。コード名と構成音を見ながら、練習曲にも合わせられます。</div></div><div class="version">v6</div></header>
+<div class="sectionTitle">進行 × Key を選ぶ</div>
+<div id="comboGrid" class="comboGrid"></div>
+<div class="selectedSummary"><div><b id="selectedName"></b><br><span id="selectedChords"></span></div><span id="selectedStars"></span></div>
+<div class="tabs"><button class="tab active" data-tab="practice">コード練習</button><button class="tab" data-tab="public">著作権切れ曲</button><button class="tab" data-tab="reference">参考曲</button></div>
+<section id="panel-practice" class="panel active"><div class="trainer"><div class="now"><div class="nowLabel">NOW PLAYING</div><div id="practiceChord" class="chord">C</div><div id="practiceNotes" class="notes">ド・ミ・ソ</div><div id="practiceNext" class="next"></div><div class="progress"><div id="practiceFill" class="progressFill"></div></div><div id="practiceSequence" class="sequence"></div></div><div class="controls"><div class="controlRow"><div class="field"><label>1コードの表示時間</label><input id="seconds" type="number" min="0.5" max="20" step="0.5" value="3"></div><div class="field"><label>コード音</label><select id="practiceSound"><option value="on">鳴らす</option><option value="off">鳴らさない</option></select></div></div><div class="controlRow"><button id="practicePlay" class="btn primary">▶ 開始</button><button id="practiceReset" class="btn">↺ 最初から</button></div></div></div></section>
+<section id="panel-public" class="panel"><div class="sectionTitle" style="margin-top:0">誰もが知っている古い曲</div><div id="publicSongs" class="songGrid"></div><div id="songPlayer" class="songPlayBox" style="display:none"><div class="songNow"><div id="songName" class="songStatus"></div><div id="songChord" class="chord">C</div><div id="songNotes" class="notes">ド・ミ・ソ</div><div id="songSequence" class="sequence"></div><div class="tinyProgress"><div id="songFill"></div></div><div id="songTime" class="songStatus" style="margin-top:8px">0:00 / 0:00</div></div><div class="songButtons"><button id="songPlay" class="btn primary">▶ 再生</button><button id="songReset" class="btn">↺ 最初から</button></div></div><div class="info">著作権切れ曲は「進行 × Key」の練習とは独立しています。各曲のメロディに合う基本伴奏をJSONに持たせ、メロディとコードを同じタイムラインから同期再生します。</div></section>
+<section id="panel-reference" class="panel"><div class="sectionTitle" style="margin-top:0">この進行を聴ける有名曲</div><div id="referenceIntro" class="info" style="margin:0 2px 10px"></div><div id="referenceSongs" class="refGrid"></div><div class="info">2003〜2026年の範囲から、J-Pop・ボカロ・洋楽・EDMなどを掲載。曲全体が同じ4コードとは限らず、一部セクション・回転形・7th等の拡張を含む場合があります。原曲キーは現在選択しているKeyと異なる場合があります。</div></section>
+<footer class="footer">iPhoneの消音モード中も鳴るよう、対応環境ではAudio Sessionを playback に切り替えます。</footer>
+</main>
+<script src="./app.js?v=6"></script>
+</body>
+</html>
